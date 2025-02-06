@@ -2,9 +2,6 @@ name: deploy on push
 
 on: [push]
 
-debug: true
-
-
 jobs:
   deploy-app:
     runs-on: ubuntu-latest
